@@ -1,11 +1,8 @@
 Fabricator(:article) do
-  id            1
-  url           'MyString'
-  title         'MyString'
-  body          'MyText'
-  category_id   1
-  operator_id   1
-  thumbnail_url 'MyString'
-  created_at    '2016-10-01 17:47:38'
-  updated_at    '2016-10-01 17:47:38'
+  url           'article'
+  title         'テスト記事'
+  body          'テスト記事本文'
+  operator
+  thumbnail_url 'test.png'
+  published_at  Time.zone.parse('2016-10-23')
 end
