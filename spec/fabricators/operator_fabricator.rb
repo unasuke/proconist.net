@@ -1,16 +1,16 @@
 Fabricator(:operator) do
-  identifier      'MyString'
+  identifier      'unasuke'
   position        1
-  name            'MyString'
-  password_digest 'MyString'
-  icon            'MyString'
+  name            'うなすけ'
+  password_digest BCrypt::Password.create('password')
+  icon            'icon.png'
   school_id       1
-  github          'MyString'
-  bitbucket       'MyString'
-  slideshare      'MyString'
-  twitter         'MyString'
-  facebook        'MyString'
-  site            'MyString'
-  description     'MyString'
-  email           'MyString'
+  github          'https://github.com/unasuke'
+  bitbucket       'https://bitbucket.org/unasuke'
+  slideshare      'http://www.slideshare.net/yusukenakamura1994'
+  twitter         'https://twitter.com/yu_suke1994'
+  facebook        'https://www.facebook.com/yusuke.nakamura1994'
+  site            'https://unasuke.com'
+  description     'description'
+  email           'yusuke1994525@gmail.com'
 end
